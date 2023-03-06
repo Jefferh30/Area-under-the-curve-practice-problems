@@ -11,7 +11,7 @@
   <script defer type="text/javascript" src="./index.js"></script>
 
   <!-- Include GeoGebra-->
-  <script src="https://www.geogebra.org/apps/deployggb.js" no-defer=""></script>
+  <script onload="injectApp()" src="https://www.geogebra.org/apps/deployggb.js" defer></script>
 
   
   <title>Area under the curve practice problems with GeoGebra</title>
@@ -22,11 +22,11 @@
     You need to enable JavaScript to use this app
   </noscript>
 
-  <section class="user-input">
+  <section class="main-container">
     <h1>Area Under The Curve Practice</h1>
 
-    <div class="input-inner-container">
-      <div id="ggb-element"></div>     
+    <div class="inner-container">
+      <div id="ggb-element" class="ggb-app"></div>     
     </div>
 
   </section>
