@@ -29,7 +29,14 @@ section {
 }
 
 .inner-container {
-    padding: 0.3rem 1.5rem;
+    max-width: 530px;
+    margin: auto;
+    min-height: 700px;
+    padding: 2rem 0;
+}
+
+.ggb-app {
+    width: 100%;
 }
 
 
@@ -57,7 +64,8 @@ h1 {
     font-size: 1.25rem;
 }
 
-.input-inner-container {
-    padding: 0.3rem 0.6rem;
+.inner-container {
+    min-height: 450px;
 }
+
 }
